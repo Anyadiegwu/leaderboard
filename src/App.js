@@ -1,16 +1,34 @@
+import React from 'react';
 import './App.css';
+import img1 from './asset/img1.png';
+import img2 from './asset/img2.png';
+import img3 from './asset/img3.png';
+import img4 from './asset/img4.jpg';
+import img5 from './asset/img5.jpg';
+import img6 from './asset/img6.webp';
+import img7 from './asset/img7.jpg';
+import img8 from './asset/img8.avif';
+import img9 from './asset/img9.jpg';
+import img10 from './asset/img10.jpg';
+
 
 function App() {
+
   return (
     <>
-      <header>
-        <h1>Leanrnable Leaderboard</h1>
+
+      <header> 
+        <h1>Learnable Leaderboard</h1>
       </header>
       <main>
         <table>
           <tr>
+            <th><button>Frontend</button></th>
+          </tr>
+          <tr>
             <th>First Name</th>
             <th>Last Name</th>
+            <th>Avatar</th>
             <th>Task 1</th>
             <th>Task 2</th>
             <th>Task 3</th>
@@ -19,8 +37,9 @@ function App() {
             <th>Attendance%</th>
           </tr>
           <tr>
-            <td>Joshua</td>
-            <td>Philips</td>
+            <td>Aisha</td>
+            <td>Adebayo</td>
+            <td><img src = {img1} alt='intern'/></td>
             <td>9</td>
             <td>10</td>
             <td>10</td>
@@ -31,6 +50,7 @@ function App() {
           <tr>
             <td>Prince</td>
             <td>Nnamdi</td>
+            <td><img src = {img2} alt='intern'/></td>
             <td>9</td>
             <td>8</td>
             <td>10</td>
@@ -41,6 +61,7 @@ function App() {
           <tr>
             <td>Joy</td>
             <td>James</td>
+            <td><img src = {img3} alt='intern'/></td>
             <td>10</td>
             <td>6</td>
             <td>10</td>
@@ -51,6 +72,7 @@ function App() {
           <tr>
             <td>Grace</td>
             <td>Damian</td>
+            <td><img src = {img4} alt='intern'/></td>
             <td>10</td>
             <td>5</td>
             <td>8</td>
@@ -61,6 +83,7 @@ function App() {
           <tr>
             <td>Victor</td>
             <td>Henry</td>
+            <td><img src = {img5} alt='intern'/></td>
             <td>9</td>
             <td>10</td>
             <td>10</td>
@@ -71,6 +94,7 @@ function App() {
           <tr>
             <td>Jessica</td>
             <td>John</td>
+            <td><img src = {img6} alt='intern'/></td>
             <td>10</td>
             <td>5</td>
             <td>5</td>
@@ -81,6 +105,7 @@ function App() {
           <tr>
             <td>Charles</td>
             <td>James</td>
+            <td><img src = {img7} alt='intern'/></td>
             <td>9</td>
             <td>8</td>
             <td>6</td>
@@ -91,6 +116,7 @@ function App() {
           <tr>
             <td>Charity</td>
             <td>Philips</td>
+            <td><img src = {img8} alt='intern'/></td>
             <td>10</td>
             <td>6</td>
             <td>4</td>
@@ -101,6 +127,7 @@ function App() {
           <tr>
             <td>Precious</td>
             <td>Thompson</td>
+            <td><img src = {img9} alt='intern'/></td>
             <td>6</td>
             <td>6</td>
             <td>5</td>
@@ -111,6 +138,7 @@ function App() {
           <tr>
             <td>Raphael</td>
             <td>Johnson</td>
+            <td><img src = {img10} alt='intern'/></td>
             <td>6</td>
             <td>5</td>
             <td>7</td>
@@ -123,8 +151,12 @@ function App() {
 
         <table>
           <tr>
+            <th><button>Backend</button></th>
+          </tr>
+          <tr>
             <th>First Name</th>
             <th>Last Name</th>
+            <th>Avatar</th>
             <th>Task 1</th>
             <th>Task 2</th>
             <th>Task 3</th>
@@ -135,6 +167,7 @@ function App() {
           <tr>
             <td>Joseph</td>
             <td>Okeke</td>
+            <td><img src = {img2} alt='intern'/></td>
             <td>10</td>
             <td>10</td>
             <td>10</td>
@@ -145,6 +178,7 @@ function App() {
           <tr>
             <td>Joy</td>
             <td>Prince</td>
+            <td><img src = {img10} alt='intern'/></td>
             <td>8</td>
             <td>10</td>
             <td>9</td>
@@ -155,6 +189,7 @@ function App() {
           <tr>
             <td>Chioma</td>
             <td>Uche</td>
+            <td><img src = {img9} alt='intern'/></td>
             <td>9</td>
             <td>6</td>
             <td>10</td>
@@ -165,6 +200,7 @@ function App() {
           <tr>
             <td>Grace</td>
             <td>Damian</td>
+            <td><img src = {img8} alt='intern'/></td>
             <td>9</td>
             <td>5</td>
             <td>8</td>
@@ -175,6 +211,7 @@ function App() {
           <tr>
             <td>Victor</td>
             <td>Henry</td>
+            <td><img src = {img7} alt='intern'/></td>
             <td>9</td>
             <td>10</td>
             <td>8</td>
@@ -185,6 +222,7 @@ function App() {
           <tr>
             <td>Gift</td>
             <td>John</td>
+            <td><img src = {img6} alt='intern'/></td>
             <td>8</td>
             <td>5</td>
             <td>5</td>
@@ -195,6 +233,7 @@ function App() {
           <tr>
             <td>Charles</td>
             <td>Chike</td>
+            <td><img src = {img5} alt='intern'/></td>
             <td>10</td>
             <td>6</td>
             <td>6</td>
@@ -205,6 +244,7 @@ function App() {
           <tr>
             <td>Blessing</td>
             <td>Chima</td>
+            <td><img src = {img4} alt='intern'/></td>
             <td>10</td>
             <td>5</td>
             <td>4</td>
@@ -215,6 +255,7 @@ function App() {
           <tr>
             <td>Hope</td>
             <td>Victor</td>
+            <td><img src = {img3} alt='intern'/></td>
             <td>6</td>
             <td>3</td>
             <td>7</td>
@@ -225,6 +266,7 @@ function App() {
           <tr>
             <td>Chima</td>
             <td>John</td>
+            <td><img src = {img1} alt='intern'/></td>
             <td>5</td>
             <td>5</td>
             <td>7</td>
@@ -235,7 +277,8 @@ function App() {
         </table>
       </main>
 
-    </>
+    
+     </>
   );
 }
 
